@@ -19,7 +19,7 @@ chunk_size = 300
 chunk_overlap = 50
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=chunk_size,
+    chunk_size=chunk_size,git 
     chunk_overlap=chunk_overlap,
     separators=["\n\n", "\n", ".", " "]
 )
