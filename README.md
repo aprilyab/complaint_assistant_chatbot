@@ -25,9 +25,9 @@
 
 ## Business Objective
 
-CrediTrust Financial is a fast-growing digital finance company serving East African markets via a mobile-first platform. Their product lineup includes Credit Cards, Personal Loans, Buy Now, Pay Later (BNPL), Savings Accounts, and Money Transfers.
+CreditTrust Financial is a fast-growing digital finance company serving East African markets via a mobile-first platform. Their product lineup includes Credit Cards, Personal Loans, Buy Now, Pay Later (BNPL), Savings Accounts, and Money Transfers.
 
-With over 500,000 users and operations expanding across three countries, CrediTrust receives thousands of customer complaints each month through various channels.
+With over 500,000 users and operations expanding across three countries, CreditTrust receives thousands of customer complaints each month through various channels.
 
 My mission in this project is to build an internal AI tool that transforms this raw, unstructured complaint data into actionable insights. This tool is designed to help internal stakeholders like Asha, a Product Manager on the BNPL team, who currently spends hours manually reading complaints each week. She needs a solution to ask direct questions and get quick, evidence-backed answers.
 
@@ -41,7 +41,7 @@ The success of this project will be measured by:
 
 ## Motivation
 
-The teams at CrediTrust face several challenges:
+The teams at CreditTrust face several challenges:
 
 - Customer Support is overwhelmed by the volume of incoming complaints.  
 - Product Managers struggle to pinpoint the most frequent or critical issues across products.  
@@ -172,7 +172,7 @@ Deliverables:
 
 ---
 
-*This project is my journey to build an intelligent, interactive chatbot that turns customer complaints into actionable insights for CrediTrust Financial.*
+*This project is my journey to build an intelligent, interactive chatbot that turns customer complaints into actionable insights for CreditTrust Financial.*
 
 Email: henokapril@gmail.com
 github: https://github.com/aprilyab/complaint_assistant_chatbot

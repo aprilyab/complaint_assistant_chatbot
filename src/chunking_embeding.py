@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 
 # === Step 1: Load cleaned and filtered data ===
-data_path = "../data/raw/filtered_complaints.csv"
+data_path = "../data/filtered_complaints.csv"
 df = pd.read_csv(data_path)
 
 if 'cleaned_narrative' not in df.columns:
@@ -19,7 +19,7 @@ chunk_size = 300
 chunk_overlap = 50
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=chunk_size,git 
+    chunk_size=chunk_size,
     chunk_overlap=chunk_overlap,
     separators=["\n\n", "\n", ".", " "]
 )
@@ -60,4 +60,3 @@ with open(os.path.join(vector_dir, "metadata.pkl"), "wb") as f:
     pickle.dump(metadatas, f)
 
 print(f"✅ Saved FAISS index and metadata to: {vector_dir}")
-
